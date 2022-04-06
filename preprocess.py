@@ -3,6 +3,7 @@ import numpy as np
 import json
 # nltk
 import nltk
+import pickle
 # nltk.download('stopwords')
 
 
@@ -53,7 +54,6 @@ def main():
     df = get_df()
     print(df.head())
 
-    
 
 if __name__ == "__main__":
     main()
